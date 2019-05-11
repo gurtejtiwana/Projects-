@@ -1,0 +1,30 @@
+#wrapper{
+  margin:0 auto;
+  width:960px;
+}
+
+table{
+  border-collapse: collapse;
+  font-family: Helvetica, Arial, sans-serif;
+  width: 1200;
+}
+
+td, td, td, td, th{
+  border: 1px solid black;
+  padding: 4px 4px 4px 4px;
+  padding: 4px; /* this is the same as the line above */
+  width: 20%;
+  height: 60px;
+}
+
+th{
+  background-color: #333333;
+  background-color: #333;
+  color: white;
+  font-weight: bold;
+  text-align: left;
+}
+
+.odd{
+  background-color: yellow;
+}
