@@ -1,0 +1,28 @@
+body{
+  background-image:url(../images/background.jpg);
+  background-size: cover;
+}
+.box{
+  width: 1250px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 60px;
+  text-align: center;
+  margin: auto;
+  color: black;
+  font-family: sans-serif; helvetica; times new roman;
+}
+.box h1{
+  font-size: 65px;
+  letter-spacing: 2px;
+  font-weight: thick;
+  color: green;
+}
+.box h3{
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-weight: 125;
+}
+.box p{
+  text-align: center;
+  letter-spacing: 1px;
+}
