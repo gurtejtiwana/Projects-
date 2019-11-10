@@ -1,6 +1,6 @@
 # Projects-
 
-                                                CURRENT AND ONGOING PROJECTS FOR MY PORTFOLIO
+                                    CURRENT AND ONGOING PROJECTS FOR MY PORTFOLIO
 
 -Web Page Project, About me page, Web Designers code of conduct, ON-Travels, Frightful Site, Layout assignment, Airport timetable, Greenbelt 1 --> HTML, CSS.
 
