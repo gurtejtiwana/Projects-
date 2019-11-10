@@ -1,0 +1,124 @@
+<html>
+<html lang="en">
+
+<head>
+    <title>Contact us</title>
+    <meta charset="utf-8">
+    <meta name="description" content="This is the practice activity for web 203">
+    <meta name="author" content="Gurtej Tiwana">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+    <script src="scripts/main.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+    <section id="nav-bar">
+
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <h1><a href="index.html">BOB'S SUMMER LANDSCAPING</a></h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fa fa-bars"></i>
+  </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="past-projects.html">PAST PROJECTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-us.html">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="testimonials.html">TESTIMONIALS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="landscaping-tips.html">LANDSCAPING TIPS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact-us.html">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <h1 class="title text-center">CONTACT US!</h1>
+
+    <div id="error" align="center">
+        <section>
+            <span id="message1"></span>
+            <p>You can contact us using the form below.</p>
+            <form id="form" name="form" action="/" method="post" >
+                <p><input type="text" id="firstname" name="firstname" placeholder="Your first name*" size="40" title="Your First name" required></p>
+                <p><input type="text" id="lastname" name="lastname" placeholder="Your last name*" size="40" title="Your last name" required></p>
+                <p><input type="text" id="email" name="email" placeholder="Your Email*" size="40" title="Your email" required></p>
+                <p><select name="subject" id="subject" required>
+                      <option value="Subject" id="subject" name = "subject" >Subject</option>
+                      <option value="Sales">Sales</option>
+                      <option value="Testimonials">Testimonials</option>
+                      <option value="Quote">Quote</option>
+                      <option value="General">General</option>
+                    </select>
+                </p>
+
+                <p><textarea class="textarea" id="textarea" name="textarea" cols="40" rows="10" title="Your message/question for us." placeholder="Your message/comment text here*" required></textarea></p>
+                <input type="button" onclick="validateForm();" value="Submit">
+            </form>
+            <span id="message" name="message"></span>
+
+        </section>
+    </div>
+
+
+    <section id="social-media">
+        <div class="container text-center">
+            <p>WE ARE MORE ACCESSIBLE THAN YOU THINK!</p>
+            <div class="social-icons">
+                <a href="#"><img src="images/facebook-icon.png"></a>
+                <a href="#"><img src="images/instagram-icon.png"></a>
+                <a href="#"><img src="images/whatsapp-icon.png"></a>
+                <a href="#"><img src="images/linkedin-icon.png"></a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="footer">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer-box">
+                    <p>Join our newsletter for the latet updates within our company, scheduling/holiday hours, pricing and latest trends in the market!</p>
+                </div>
+                <div class="col-md-4 footer-box">
+                    <p><b>CONTACT US</b></p>
+                    <P><i class="fa fa-map-marker"></i> Some place, Sometownsville</P>
+                    <P><i class="fa fa-phone"></i> 0123456789</P>
+                    <P><i class="fa fa-envelope-o"></i> somebody@outlook.com</P>
+
+                </div>
+                <div class="col-md-4 footer-box">
+                    <p><b>SUBSCRIBE TO OUR NEWSLETTER</b></p>
+                    <input type="email" class="form-control" placeholder="Your Email">
+                    <button type="button" class="btn btn-primary">Subscribe</button>
+
+                </div>
+            </div>
+            <hr>
+
+        </div>
+    </section>
+</body>
+
+</html>
