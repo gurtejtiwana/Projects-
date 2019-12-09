@@ -6,6 +6,6 @@
 
 -Practice Activity 5 with contact form --> HTML, CSS, Bootstrap.
 
--Practice Activity 7 with a validated contact form --> HTML, CSS, Bootstrap, Javascript
+-Practice Activity 7 with a validated contact form, bob-summers-landscaping  --> HTML, CSS, Bootstrap, Javascript. Jquery
 
 -Ecommerce site project --> HTML, CSS, Javascript 
