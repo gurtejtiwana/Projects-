@@ -10,4 +10,4 @@
 
 -Ecommerce site project --> HTML, CSS, Javascript 
 
--Restaurant website project --> HTML, CSS, JQUERY, BOOTSTRAP, JAVASCRIPT, PHP
+-Restaurant website project (COMPRESSED ZIP FOLDER) --> HTML, CSS, JQUERY, BOOTSTRAP, JAVASCRIPT, PHP
