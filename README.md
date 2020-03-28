@@ -9,3 +9,5 @@
 -Practice Activity 7 with a validated contact form, bob-summers-landscaping  --> HTML, CSS, Bootstrap, Javascript. Jquery
 
 -Ecommerce site project --> HTML, CSS, Javascript 
+
+-Restaurant website project --> HTML, CSS, JQUERY, BOOTSTRAP, JAVASCRIPT, PHP
